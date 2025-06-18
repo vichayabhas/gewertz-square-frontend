@@ -43,9 +43,9 @@ export default async function TopMenu() {
             />
             <div>{systemMode}</div>
             <div className="flex flex-row absolute right-10 top-0 h-full py-2 text-center">
-              {/* <TopMenuItem title="weather" pageRef="/weather" /> */}
+              <TopMenuItem title="weather" pageRef="/weather" />
               <TopMenuItem title="gewertz square" pageRef="/gewertzSquare" />
-              {/* <TopMenuItem title="Update Profile" pageRef="/updateProfile" /> */}
+              <TopMenuItem title="Update Profile" pageRef="/updateProfile" />
               <TopMenuItem title="Sign Out" pageRef="/api/auth/signout" />
               <TopMenuItem title="Home" pageRef="/" />
             </div>
@@ -71,7 +71,7 @@ export default async function TopMenu() {
         />
         <div>{systemMode}</div>
         <div className="flex flex-row absolute right-10 top-0 h-full py-2 text-center">
-          {/* <TopMenuItem title="weather" pageRef="/weather" /> */}
+          <TopMenuItem title="weather" pageRef="/weather" />
           <TopMenuItem title="gewertz square" pageRef="/gewertzSquare" />
           <TopMenuItem title="Sign In" pageRef="/api/auth/signin" />
           <TopMenuItem title="Register" pageRef="/signup" />

@@ -1,4 +1,5 @@
-export type Id = string
+import mongoose from "mongoose";
+export type Id = mongoose.Types.ObjectId;
 export interface InterActionPlan {
   action: string;
   partId: Id;
@@ -2375,4 +2376,11 @@ export interface GewertzSquareRegister {
   tel: string;
   password: string;
   email: string;
+}
+export interface UpdateGewertzSquareAccount {
+  name: string;
+  lastname: string;
+  email: string;
+  tel: string;
+  //private
 }
